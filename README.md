@@ -1,2 +1,2 @@
-# resturant_website
-resturant_website
+# Github pages
+https://bartlomiejgorzelak.github.io/resturant_website/

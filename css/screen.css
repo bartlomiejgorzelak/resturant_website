@@ -1,0 +1,844 @@
+
+body {
+    background: #000;
+}
+
+body,
+input,
+textarea,
+select {
+    font-family: 'sansationregular';
+    font-size: 14px;
+    line-height: 23px;
+    color: #331404;
+}
+.center {
+    margin: 0 auto;
+}
+
+
+/* style dla headera */
+
+body > header {
+    height: 77px;
+    border-bottom: 7px solid #f55b0c;
+    background: #000;
+}
+
+body > header  .center {
+    width: 1110px;
+}
+
+#home header h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#home header h4{
+    font-size: 20px;
+}
+
+
+body > header h1,
+body > header nav {
+    float: left;
+    color: #cf6202;
+}
+
+body > header h1 {
+    margin-top: 14px;
+    margin-right: 80px;
+}
+
+body > header h1,
+body > header h1 a {
+    width: 194px;
+    height: 64px;
+}
+
+.menu {
+    color: #f55b0c;
+}
+
+body > header h1 a {
+    display: block;
+    text-indent: -999px;
+    background-image: url(../img/logo.png);
+}
+
+
+/*mein menu*/
+
+.menu > li {
+    position: relative;
+    float: left;
+}
+
+body > header nav ul li a {
+    font-family: 'museo_slab500';
+    font-size: 17px;
+    display: block;
+    text-transform: uppercase;
+    color: #ff803f;
+}
+
+ul.menu > li > a {
+    height: 41px;
+    padding: 35px 35px 0;
+}
+
+body > header nav ul.menu > li.current-item > a {
+    color: #000;
+    background: #f55b0c;
+}
+
+.menu > li > a:hover {
+    opacity: .7;
+}
+
+.menu > li.current-item > a:hover {
+    opacity: 1;
+    color: #000;
+}
+
+.submenu {
+    position: absolute;
+    z-index: 10;
+    z-index: 10;
+    top: 77px;
+    left: 0;
+    display: none;
+    width: 290px;
+    background: #000;
+}
+
+.submenu li a {
+    font-size: 13px;
+}
+
+
+
+li:first-child:hover .submenu {
+    display: block;
+}
+
+.submenu li a {
+    display: block;
+    height: 39px;
+    margin: 0 33px;
+    padding-top: 21px;
+    padding-left: 75px;
+    border-bottom: 1px dashed #f55b0c;
+    background-repeat: no-repeat;
+    background-position: 12px 5px;
+}
+
+
+
+
+
+
+body > header nav .submenu li.lunch a {
+    background-image: url(../img/submenu-icon-bread.png);
+}
+
+body > header nav .submenu li.breakfast a {
+    background-image: url(../img/submenu-icon-dinner.png);
+}
+
+
+
+
+ li.all a {
+    background: #f9590c;
+   padding:  5px 0px 0px;
+    height: 27px;
+    color: #000;
+    margin:  0;
+    border: 0;
+    text-align: center;
+}
+
+.all a span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background:url(../img/submenu-icon-all.png)  no-repeat;
+    border:0;
+    text-indent: -999px;
+    position: relative;
+    top: 2px; 
+    margin-left: 5px;
+
+}
+
+/* header general */
+
+
+ .wood{
+background: url(../img/tlo.png) repeat-x;
+}
+/* header home-s;ider */
+ .center {
+    position: relative;
+}
+
+.gradient {
+    background: url(../img/sh1_02.png) left bottom repeat-x;
+   position: relative;
+    top: -665px;
+} 
+
+.gradient .center{
+    background: url(../img/sh1_02.png) center bottom repeat-x;
+    width: 100px;
+    height: 200px;
+  top: 0px;
+
+}
+
+
+/* header home-slider */
+
+.home-slider .center {
+    width: 1400px;
+    height: 690px;
+}
+
+
+
+
+
+.home-slider  .slides {
+    overflow: hidden;
+    height: 1190px;
+    
+    
+
+}
+
+.home-slider .item {
+    width: 1600px;
+    
+}
+
+.home-slider .pepers {
+    height: 690px;
+    position: relative;
+    
+}
+
+  .home-slider .pepers .caption {
+    position: absolute;
+    left: 133px;
+    top: 178px;
+    width: 555px;
+    height: 176px;
+    background:url(../img/) no-repeat ;
+    padding: 34px 40px 0px 25px;
+    font-family: 'museo_slab500';
+display: block;
+    
+}
+
+.home-slider .pepers .caption, 
+.home-slider .pepers .caption a  {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+  .home-slider .pepers .caption h3 {
+    font-size: 36px;
+    margin-bottom: 13px;
+}
+
+.home-slider .pepers .caption p {
+    font-size: 15px;
+    line-height: 23px;
+    text-align: justify;
+    position: relative;
+}
+
+ .home-slider .pepers .caption a {
+    position: absolute;
+    right:  0px;
+    display: block;
+    border: 1px dashed #fff;
+    padding: 6px 16px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #000;
+    -webkit-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+}
+  .home-slider .pepers img{
+    
+    position: absolute;
+    left: 1000px;
+    top: 10px;
+ }
+
+
+ /*padding*/
+
+ .pagination {
+    position: absolute;
+    
+    bottom: 0px;
+    left: 50%;
+    width: 244px;
+    height: 35px;
+    margin-left: -81px;
+    background:url(../img/switch.png) no-repeat;
+ }
+
+.pagination ul{
+    width: auto;
+     text-align: center;
+     margin-top: 12px;
+     margin-left: 5px;
+}
+
+.pagination ul li {
+    padding: 6px;
+    display: inline;
+    margin-right: 5px; 
+}
+
+.pagination ul li a {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #3c1908;
+    border-radius: 50%;
+    text-indent: -999em;
+}
+.pagination ul li.selected a,
+.pagination ul li:hover a {
+ background: #ff803f;
+}
+
+ /*quotte*/
+ 
+    
+ 
+
+  .signature .center  {
+    width: 1030px;
+    height: 82px;
+    font-family: 'museo_slab500';
+    color: #331404;
+    font-size: 24px;
+ }
+ .signature  {
+    background: #fff;
+}
+ 
+ .quote .center {
+    width: 800px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.signature  blockquote {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'museo_slab500';
+    width: 728px;
+    margin: 0 auto;
+    padding-top: 35px;
+
+
+}
+
+/* content style */
+
+.content {
+    background: #f5f5f5;
+   
+    
+
+}
+
+.content .center {
+    width: 1040px;
+    overflow: hidden;
+}
+
+/* home contenet */
+
+#home .boxes {
+    background: #fff;
+    padding: 50px 200px ;
+    margin-top: -665px;
+}
+ #home .boxes .center{
+    width: 1940px;
+    overflow: hidden;
+
+}
+
+ #home .boxes .box {
+    float: left;
+    width: 260px;
+    padding-bottom: 0px;
+}
+
+ #home .boxes .box h2 {
+    color: #331404;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+
+ .second {
+    border-left: 2px dashed #b8b8b8;
+    border-right: 2px dashed #b8b8b8;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 0px  147px;
+    height: 356px;
+
+}
+
+ .box .step1 {
+    padding-top: 200px;
+}
+
+
+.first .step1 {
+    background: url(../img/atuty1.png)no-repeat;
+   
+}
+
+ .second .step1 {
+    background: url(../img/atuty2.png)no-repeat;
+   
+}
+.third .step1 {
+    background: url(../img/atuty3.png)no-repeat;
+   
+}
+
+ .box .step2 {
+    position: absolute;
+    top: 0px;
+    padding-top: 44px;
+    height: 25px;
+}
+
+.box .step2 h2 {
+    margin-bottom:  52px;
+}
+
+  .step2  > a {
+    display: inline-block;
+    margin-top: 25px;
+    height: 24px;
+    padding-right: 57px;
+    background: url(../img/submenu-icon-all.png)right center no-repeat;
+     
+    text-transform: uppercase;
+    
+
+}
+
+
+/* icon list*/
+
+ .icon li {
+
+   margin-top: 2px;
+    height: 25px;
+    padding-left: 37px;
+}
+
+.icon  .chicken {
+    background: url(../img/icon-small-chicken.png) left center no-repeat;
+}
+
+ .icon  .fish{
+    background: url(../img/icon-small-fish.png)left center  no-repeat;
+}
+.icon  .soup {
+    background: url(../img/icon-small-soup.png)left center  no-repeat ;
+}
+.icon  .waiter {
+    background: url(../img/icon-small-waiter.png)left center  no-repeat  ;
+} 
+
+/*
+.step2 {
+    display: none;
+}
+
+.show:hover .step2{
+    display : block;
+}
+
+ .show:hover .step1 {
+    display: none;
+
+}
+*/
+
+/*food fight */
+ .food-fight .center{
+    width: 1053px;
+    height: 465px;
+    overflow: visible;
+}
+
+.food-fight {
+    background: #000 url(../content/Untitled-1_14.png) center bottom no-repeat;
+    top: -55px;
+    border-top: 5px solid #f55b0c; 
+     border-bottom: 5px solid #f55b0c; 
+}
+
+.food-fight  header{
+    width: 210px;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    
+}
+
+.food-fight  header  h2{
+    color: #fff
+}
+
+.food-fight  header  h4{
+    color: #7a7a7a ;
+    font-size: 16px;
+}
+
+/* slider home page style*/
+
+#home .inspiration {
+    background: #fcfcfa url(../img/top-caption-grad-patt.jpg) left bottom repeat-x;
+
+}
+
+ .inspiration .center{
+
+    width: 1160px;
+    background: url(../img/top-caption-grad-cnt.png) center bottom no-repeat;
+    padding: 50px 0px;
+    overflow:  visible;
+ }
+
+ .inspiration header,.comments header  {
+    margin-bottom: 66px;
+    text-align:  center;
+ }
+
+.inspiration header h2, .comments header h2{
+    color: #331404;
+
+}
+
+.inspiration header h4, .comments header h4{
+    color: #9c8d84;
+    
+}
+
+.inspiration .slider {
+    position: relative;
+}
+
+.inspiration .slider .slider-container{
+    position: relative;
+    width: 1104px;
+    margin: 0 auto;
+    background: url(../img/inspirations-slider-grads.png) center top no-repeat;
+    z-index: 3;
+}
+
+.inspiration .slider .slider-container .items{
+    margin-left: 25px;
+    margin-top: 10px;
+    overflow: hidden; 
+}
+
+.inspiration .slider .slider-container .items>div{
+    float: left;
+    width: 314px;
+    height: 350px;
+    color: #331404;
+    padding: 0px 17px;
+    position: relative;
+    }
+
+.inspiration .slider .slider-container .items >div h2 {
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+.inspiration .slider .slider-container .items >div >.more {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icon-orange-dots.png);
+    text-indent: -999em;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+#home .inspiration .slider >a{
+    display: block;
+    position: absolute;
+    width: 52px;
+    height: 55px;
+    top: 40px;
+    text-indent: -999em;
+    cursor: pointer;
+
+    z-index: 2;
+    }
+
+    #home .inspiration .slider >a.prev{
+        background: url(../img/slider-left-arr.png) no-repeat;
+        left: -7px;
+    }
+
+ #home .inspiration .slider >a.next{
+     background: url(../img/slider-right-arr.png) no-repeat;
+        right: -7px;
+    }
+
+/* komentarz */
+
+ .comments {
+    background: #fff;
+    
+
+}
+
+ .comments .center{
+width: 1021px;
+padding: 50px 0px;
+overflow: visible;
+}
+
+.comments header {
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 1021px;
+    position: relative;
+    background: #fff;
+    height: 200px;
+    border:  1px solid #e7e6e6;
+    box-shadow: 0 0px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0px 2px rgba(0,0,0,0.1) ;
+
+}
+
+.container .flyer {
+    display: block;
+    background: url(../img/comment-triangle.png);
+    width: 30px;
+    height: 19px;
+    position: absolute;
+    left: 50%;
+    margin-left: -19px;
+    top:-15px;
+    text-indent: -999em;
+}
+
+.comments .container section {
+    float: left;
+    width: 350px;
+    position: relative;
+
+}
+ .comments .container section.first {
+    margin-left: -1px;
+    width: 323px;
+
+}
+
+.comments .container section.third{
+    margin-right: -1px;
+}
+
+.comments .container section header {
+    font-family: 'MuseoSlab500Regular';
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    margin-bottom: 35px;
+    background: #ff803f;
+    padding: 14px 0px;
+    height: 32px;
+}
+
+.comments .container section header, .comments .container section blockquote {
+    padding-left: 80px;
+    padding-right: 15px;
+}
+
+ .comments .container section.first header, .comments .container section.firts blockquote{
+    padding-left: 54px;
+
+}
+
+ .comments .container section img {
+    position: absolute;
+    left: 0px;
+    top: 15px;
+    border-radius: 50%;
+
+}
+
+ .comments .container section.first img{
+    left: -30px;
+}
+
+.comments .container section blockquote {
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+
+/*footer*/
+
+footer  {
+    border-top:  5px solid #f55b0c;
+    color: #fcfcfc;
+}
+    footer .menu  {
+    
+    color: #fcfcfc;
+
+
+}
+
+footer .center{
+    width: 1200px;
+    padding: 45px 0;
+}
+
+
+footer section{
+    float: left;
+}
+
+footer .menu{
+    background: url(../img/icon-bread-white.png)left 30px no-repeat;
+    padding-left: 93px;
+    width: 493px;
+    max-height: 155px;
+}
+
+footer .menu ul {
+    border-right: 1px dashed #474747;
+    padding: 20px 30px 20px 0px;
+    margin-left: 30px;
+    float: left;
+}
+
+footer .tag {
+    width: 244px;
+    min-height: 123px;
+    margin-top: 21px;
+    margin-left: 70px;
+    padding-left: 110px;
+    background:  url(../img/icon-cook-white.png) left center no-repeat;
+    font-family: 'MuseoSlab500Regular';
+    text-transform: uppercase;
+
+}
+
+footer .tag :hover {
+    text-decoration: underline;
+}
+
+footer .boxes .center{
+    width: 250px;
+    overflow: hidden;
+}
+
+footer.boxes section{
+   width: 230px;
+    height: 170px;
+    padding-top: 120px;
+    margin-left: 75px;
+    color: #fff;
+}
+
+footer.boxes .spageti{
+    background: url('../img/icon-spaghetti-white.png') center top no-repeat;
+    margin-right: 65px;
+}
+
+footer.boxes .bred{
+    background: url('../img/icon-bread-white.png') center top no-repeat;
+    border-left: 1px dashed #474747;
+    border-right: 1px dashed #474747;
+    padding: 120px 62px 0px;
+}
+
+footer.boxes .diner{
+    background: url('../img/icon-dinner-white.png') center top no-repeat;
+    padding-left: 65px;
+}
+
+footer.boxes section h2{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+/* error 404 style */
+
+  .error-message{
+    top:0px;
+    background: #f5f5f5;
+
+}
+.error-message footer{
+   margin-top: 0px;
+}
+
+.error-message .code{
+    font-size: 99px;
+    line-height: 120px;
+    float: left;
+    margin-left:  350px;
+}
+
+ 
+.error-message  .wraper{
+    overflow: hidden;
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+
+.error-message h2{
+      font-size: 49px;
+    line-height: 52px;
+    margin-bottom: 10px;
+
+}
+
+ .error-message .message{
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 1px solid #000000;
+    float: right;
+    width: 790px;
+    margin-right: 150px;
+}
+
+.error-message .message a :hover{
+        text-decoration: underline;
+}
+
+
+

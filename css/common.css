@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'sansationregular';
+    src: url('../assets/font/Sansation-Regular-webfont.eot');
+    src: url('../assets/font/Sansation-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../assets/font//Sansation-Regular-webfont.woff') format('woff'), url('../assets/font/Sansation-Regular-webfont.ttf') format('truetype'), url('../assets/font/Sansation-Regular-webfont.svg#sansationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansationitalic';
+    src: url('../assets/font/Sansation-Italic-webfont.eot');
+    src: url('../assets/font/Sansation-Italic-webfont.eot?#iefix') format('embedded-opentype'), url('../assets/font/Sansation-Italic-webfont.woff') format('woff'), url('../assets/font/Sansation-Italic-webfont.ttf') format('truetype'), url('../assets/font/Sansation-Italic-webfont.svg#sansationitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_slab500';
+    src: url('../assets/font/Museo_Slab_500_2-webfont.eot');
+    src: url('../assets/font/Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'), url('../assets/font/Museo_Slab_500_2-webfont.woff2') format('woff2'), url('../assets/font/Museo_Slab_500_2-webfont.woff') format('woff'), url('../assets/font/Museo_Slab_500_2-webfont.ttf') format('truetype'), url('../assets/font/Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_slab500_italic';
+    src: url('../assets/font/Museo_Slab_500italic-webfont.eot');
+    src: url('../assets/font/Museo_Slab_500italic-webfont.eot?#iefix') format('embedded-opentype'), url('../assets/font/Museo_Slab_500italic-webfont.woff2') format('woff2'), url('../assets/font/Museo_Slab_500italic-webfont.woff') format('woff'), url('../assets/font/Museo_Slab_500italic-webfont.ttf') format('truetype'), url('../assets/font/Museo_Slab_500italic-webfont.svg#museo_slab500_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.container a {
+    border-bottom: 1px dashed #999999;
+}
+
+.container a img {
+    border-bottom: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'sansationitalic';
+    font-weight: normal;
+}
+
+.clear {
+    cleat: both;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/*Food Fight */
+
+.oponent {
+    width: 288px;
+    height: 360px;
+    position: relative;
+    color: #fff;
+    margin-top: 75px;
+}
+
+.oponent > div,
+.oponent img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%
+}
+
+.oponent .header,
+.oponent .details {
+    position: absolute;
+    font-size: px;
+    font-family: 'museo_slab500';
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.header {
+    width: 85px;
+    height: 65px;
+    padding-top: 20px;
+}
+
+.details {
+    width: 83px;
+    height: 58px;
+    line-height: 15px;
+    padding-top: 25px;
+    top: -222px;
+    position: relative;
+}
+
+.header small {
+    display: block;
+    font-size: 24px;
+}
+
+.details small {
+    font-size: 10px;
+    display: block;
+}
+
+.image {
+    width: 278px;
+    height: 278px;
+    padding: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.image img {
+    border: 2px solid #fff;
+}
+
+.good > div {
+    background: #2c8f0e;
+}
+
+.good .header {
+    transform: rotate(-45deg);
+    right: 220px;
+    top: -10px;
+}
+
+.good .details {
+    right: -70px;
+    top: 110px;
+}
+
+.bad {
+    float: right;
+}
+
+.good {
+    float: left;
+}
+
+.bad > div {
+    background: #dc2727;
+}
+
+.bad .header {
+    transform: rotate(45deg);
+    right: -20px;
+    top: -10px;
+
+}
+
+.bad .details {
+    right: 270px;
+    top: 110px;
+}
+
+
+.oponent p {
+    text-align: center;
+    margin: 20px;
+
+}
